@@ -10,7 +10,7 @@ body {
 	margin-top: 50px;
 	text-align: center;
 	color: white;
-	font-family: 'roboto';
+	font-family: 'Roboto';
 }
 
 .logo h1 {
@@ -19,8 +19,9 @@ body {
 }
 
 .box {
-	margin-top: 50px;
+	margin-top: 30px;
 	padding: 10px;
+	margin-left: 8%;
 	background-color: white;
 	-webkit-filter: drop-shadow(5px 5px 10px #222);
   	filter: drop-shadow(5px 5px 10px #222);
@@ -29,7 +30,7 @@ body {
 #todo {
 	color: gray;
 	font-weight: 300;
-	font-family: 'roboto';
+	font-family: 'Roboto';
 	font-size: 18px;
 }
 
@@ -47,16 +48,16 @@ a.close {
 
 .formBG {
 	height: 70px;
-	margin-top: 50px;
+	margin-top: 30px;
 	background-color: #d9d9d9;
 	text-align: center;
+	margin-left: 8%;
 	-webkit-filter: drop-shadow(5px 5px 10px #222);
   	filter: drop-shadow(5px 5px 10px #222);
 }
 
 .form {
 	display: inline-block;
-	width: 500px;
 	text-align: center;
 }
 
@@ -65,20 +66,13 @@ a.close {
 }
 
 .btn-primary {
-	width: 100px;
+	width: 50px;
+	margin-left: -9px;
 	border: none !important;
 	background-color: #30bab2 !important;
 }
 
-.btn-danger {
-	width: 100px;
-	border: none !important;
-	background-color: #a83535 !important;
-	-webkit-box-shadow: none;
-	float: right;
-	margin-right: 10px;
-	display: none;
-}
+
 
 
 
